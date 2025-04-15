@@ -1,0 +1,34 @@
+.informationItemContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 2.5rem;
+
+    
+}
+
+.informationItemIcon{
+    padding: 1rem;
+    border-radius: 50%;
+    background: rgba(181, 251, 181, 0.783);
+}
+
+.headerCountContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0 0 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.informationHeader{
+    color: grey;
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+.informationCount{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+}
+

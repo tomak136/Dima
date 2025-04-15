@@ -1,0 +1,44 @@
+.wrapperContainer{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+
+.informationContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0 0 0;
+    justify-content: space-around;
+    background: white;
+    width: 90%;
+    border-radius: 1rem;
+    /* align-self: center; */
+   
+}
+
+.allProductsContainer{
+    width: 90%;
+    margin: 2rem 0 0 0;
+}
+
+
+
+@media screen and (width<900px) {
+    .wrapperContainer{
+        width: 80vw;
+    }
+    .informationContainer{
+        width: 85vw;
+    }
+    .allProductsContainer{
+        width: 85vw;
+    }
+    
+}
+@media screen and (width>900px) {
+    .wrapperContainer{
+        align-items: center;
+    }
+    
+}

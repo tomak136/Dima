@@ -1,0 +1,88 @@
+.dashboardContainer {
+  display: flex;
+  flex-direction: column;
+  background: rgb(86, 57, 139);
+  background: linear-gradient(0deg, rgba(99, 68, 158, 1) 0%);
+  height: 100%;
+  width: 25vw;
+  align-items: center;
+  font-size: 1rem;
+  min-height: 100vh;
+}
+
+.companyLogo {
+  font-size: 1.5rem;
+  margin: 2rem 0rem 2rem 0;
+  color: white;
+  text-shadow:
+    -1px 0 white,
+    0 1px white,
+    1px 0 white,
+    0 -1px white;
+  letter-spacing: 2px;
+  align-self: center;
+
+}
+.logout {
+  position: absolute;
+  bottom: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5rem;
+}
+a {
+  /* color: white; */
+  text-decoration: none;
+
+  letter-spacing: 2px;
+  padding: 0 0 0 0.3rem;
+}
+span {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  padding: 0 0.3rem 0 0;
+}
+
+div.title {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+
+@media screen and (width<900px) {
+  .companyLogo{
+    display: none;
+  }
+  div.title{
+    display: none;
+  }
+  .dashboardContainer{
+    width: 6vw;
+    padding: 2rem 0 0 0;
+  }
+  .logout{
+    bottom: 4rem;
+  }
+  
+}
+
+@media screen and (width> 900px) {
+  .dashboardContainer{
+    width: 15vw;
+    
+  }
+}

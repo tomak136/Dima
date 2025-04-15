@@ -1,0 +1,23 @@
+.BackButton{
+    border: 0 none;
+    background-color: transparent;
+   
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    
+}
+
+@media screen and (800px<width<900px) {
+    .BackButton{
+       left: 3.5rem;
+    }
+    
+}
+
+@media screen and (width>900px) {
+    .BackButton{
+       left: 1rem;
+    }
+    
+}
