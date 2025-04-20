@@ -1,0 +1,38 @@
+.InputWTitleContainer {
+    margin: 1.5rem 0;
+}
+
+.title {
+  font-size: 0.8rem;
+  color: grey;
+  margin: 0 0 0.2rem 0.2rem;
+}
+.input {
+  padding: 0.5rem 0.8rem;
+  color: black;
+  border: 0.1rem solid lightgrey;
+  border-radius: 1rem;
+  width: 30vw;
+}
+.multilineInput{
+    padding: 0.5rem 0.8rem;
+    color: black;
+    border: 0.1rem solid lightgrey;
+    border-radius: 1rem;
+    min-width: 30vw;
+    min-height: 10vh;
+    resize: none;
+}
+.input:focus-visible, .multilineInput:focus-visible{
+    border: 0.05rem solid blue ;
+    outline: 0.05rem solid blue;
+}
+
+@media screen and (width<900px) {
+    .input{
+        width: 50vw;
+    }
+    .multilineInput{
+        width: 50vw;
+    }
+}

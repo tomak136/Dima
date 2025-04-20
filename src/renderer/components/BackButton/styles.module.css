@@ -5,7 +5,34 @@
     position: absolute;
     top: 1rem;
     left: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     
+}
+.icon{
+    border: 0.1rem solid lightgrey;
+    padding: 0.3rem 0.4rem;
+    background: transparent;
+}
+.icon:hover{
+    border: 0.1rem solid grey;
+}
+.headerContainer{
+    margin: 0 0 0 0.5rem;
+}
+.backRoute{
+    color:grey;
+    font-size: 0.7rem;
+    text-align: left;
+    margin: 0 0 0.4rem 0;
+}
+.currentRouteTitle{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: left;
 }
 
 @media screen and (800px<width<900px) {

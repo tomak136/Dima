@@ -5,7 +5,7 @@
  html, body {
   margin:0;
   padding: 0;
-  background: rgb(230,237,246);
+  /* background: rgb(230,237,246); */
   /* background: linear-gradient(85deg, rgba(230,237,246,1) 0%, rgba(232,239,252,1) 58%, rgba(241,245,253,1) 96%); */
   height: 100%;
   width: 100%;
